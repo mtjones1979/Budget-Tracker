@@ -5,6 +5,7 @@ const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
   "/",
   "/index.html",
+  "/db.js",
   "/manifest.webmanifest",
   "/style.css",
   "/icons/icon-192x192.png",
@@ -76,3 +77,14 @@ self.addEventListener("fetch", function(evt) {
     })
   );
 });
+// evt.respondWith(
+//     fetch (evt.request).catch(function() {
+//         return caches.match(evt.request).then(function(response) {
+//             if (response) {
+//                 return response;
+//             } else if (evt.request.headers.get("accept").includes("text/html")){
+//                 return caches.match("/")
+//             }
+//         })
+//     })
+// );
