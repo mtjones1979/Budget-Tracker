@@ -17,7 +17,7 @@
   ## Usage
   
   * Heroku Link:
-  [Video Link]()
+  [Video Link](https://floating-ravine-47961.herokuapp.com/)
   
   * Screenshots:
   ![alt text](https://user-images.githubusercontent.com/74076318/116826461-b8744a00-ab59-11eb-8833-db3688df8180.png)
